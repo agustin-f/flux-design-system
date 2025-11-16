@@ -12,7 +12,7 @@ const firaSans = Fira_Sans({
 
 export const metadata: Metadata = {
   title: "FLUX Design System",
-  description: "Comprehensive design system with colors, typography, and grid specifications",
+  description: "Proyecto exploratorio centrado en la creación de un sistema de diseño escalable basado en tokens, con sincronización hacia el front-end. La propuesta busca explorar coherencia visual, contraste y flexibilidad entre modos claros y oscuros.",
   generator: "v0.app",
 }
 

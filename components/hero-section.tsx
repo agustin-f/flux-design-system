@@ -116,77 +116,30 @@ export function HeroSection() {
               </div>
             </div>
             <p className="text-lg text-muted-foreground max-w-xl mx-auto lg:mx-0 mt-6">
-              A comprehensive design system with colors, typography, components, and guidelines for building modern
-              interfaces.
+           Flux is an exploratory project developing a scalable token-based design system, testing visual coherence and light/dark modes. Current components and data are temporary examples.
             </p>
           </div>
 
-          {/* 3D Color cards */}
+
           <div className="flex-1">
             <div className="relative w-full max-w-lg mx-auto">
-              <div className="space-y-3">
-                {/* Row 1: Highlight and Mono-700 */}
-                <div
-                  className="flex gap-3 transform translate-x-4"
-                  style={{
-                    transform: "rotateX(50deg) rotateZ(-25deg) translateZ(20px)",
-                    transformStyle: "preserve-3d",
-                  }}
-                >
-                  <div className="flex-1 bg-[#93B1FF] rounded-lg p-4 shadow-xl border border-gray-200/20">
-                    <div className="text-xs text-gray-900 font-semibold mb-0.5">Highlight</div>
-                    <div className="text-[10px] text-gray-800">Mono-300</div>
-                    <div className="text-[10px] text-gray-800 font-mono">#93B1FF</div>
-                  </div>
-                  <div className="flex-1 bg-[#2E39DB] rounded-lg p-4 shadow-xl">
-                    <div className="text-xs text-white font-semibold mb-0.5">Mono-700</div>
-                    <div className="text-[10px] text-blue-200 font-mono">#2E39DB</div>
-                  </div>
-                </div>
-
-                {/* Row 2: Text (White) and Gray modular */}
-                <div className="flex gap-3 transform translate-x-8">
-                  <div className="flex-1 bg-[#FAFAFA] rounded-lg p-4 shadow-xl border border-gray-300">
-                    <div className="text-xs text-gray-900 font-semibold mb-0.5">Text</div>
-                    <div className="text-[10px] text-gray-700">White</div>
-                    <div className="text-[10px] text-gray-700 font-mono">#FAFAFA</div>
-                  </div>
-                  <div className="flex-1 bg-[#6B7280] rounded-lg p-4 shadow-xl">
-                    <div className="text-xs text-white font-semibold mb-0.5">Gray</div>
-                    <div className="text-[10px] text-gray-200">modular</div>
-                  </div>
-                </div>
-
-                {/* Row 3: Gradient (Mono-500) - larger card */}
-                <div className="flex gap-3 transform translate-x-12">
-                  <div className="flex-[1.5] bg-gradient-to-br from-[#8C8AF8] via-[#7B6FD8] to-[#6A5BB8] rounded-lg p-4 shadow-xl">
-                    <div className="text-xs text-white font-semibold mb-0.5">Gradient</div>
-                    <div className="text-[10px] text-blue-100">Mono-500</div>
-                    <div className="text-[10px] text-blue-100 font-mono">#8C8AF8</div>
-                  </div>
-                  <div className="flex-1 bg-[#CD3C51] rounded-lg p-4 shadow-xl">
-                    <div className="text-xs text-white font-semibold mb-0.5">Red</div>
-                    <div className="text-[10px] text-red-100 font-mono">#CD3C51</div>
-                  </div>
-                </div>
-
-                {/* Row 4: Backgrounds */}
-                <div className="flex gap-3 transform translate-x-6">
-                  <div className="flex-1 bg-[#3D10FF] rounded-lg p-4 shadow-xl">
-                    <div className="text-xs text-white font-semibold mb-0.5">Backgrounds</div>
-                    <div className="text-[10px] text-blue-200">Bg-primary</div>
-                    <div className="text-[10px] text-blue-200 font-mono">#3D10FF</div>
-                  </div>
-                  <div className="flex-1 bg-[#BD00FF] rounded-lg p-4 shadow-xl">
-                    <div className="text-xs text-white font-semibold mb-0.5">Bg-secondary</div>
-                    <div className="text-[10px] text-purple-200 font-mono">#BD00FF</div>
-                  </div>
-                </div>
-              </div>
-            </div>
+                  <Image
+                    src="/images/flux-page.png"
+                    alt="FLUX page preview"
+                    width={256}
+                    height={256}
+                    className="w-full h-full object-contain"
+                    priority
+                  />
+             </div>
           </div>
+          
+          
+
+      
         </div>
       </div>
+
 
       {/* Scroll indicator */}
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">

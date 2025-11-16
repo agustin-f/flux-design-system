@@ -20,8 +20,7 @@ export function SizesAndSpacings() {
     <section className="space-y-6">
       <h2 className="text-xl font-semibold border-b border-gray-700 pb-2">Sizes & spacings</h2>
       <p className="text-sm text-gray-400">
-        Use consistent spacing based on an 8px grid. Apply to: margins, paddings, gaps, widths, heights, etc. A 4px
-        increment is also available for fine-tuning.
+        An 8-point scale is used for margins, paddings, and spacing between components, helping maintain visual rhythm and harmony throughout the system.
       </p>
 
       <div className="space-y-3">
@@ -30,7 +29,7 @@ export function SizesAndSpacings() {
             <div className="w-16 text-sm text-gray-400">{spacing.name}</div>
             <div
               className="flex-1 h-8 bg-[#93c5fd] rounded"
-              style={{ width: `${spacing.size * 4}px`, maxWidth: "100%" }}
+              style={{ height: `${spacing.size}px`, maxWidth: "100%" }}
             />
             <CopyButton value={spacing.value} label={spacing.name} />
           </div>

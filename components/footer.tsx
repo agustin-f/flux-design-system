@@ -7,7 +7,7 @@ export function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-sm text-muted-foreground">
             © {currentYear} FLUX Design System. Created by{" "}
-            <span className="text-primary font-medium">Agustín Farisano</span>
+            <span className="text-primary font-medium">Agustín José Farisano</span>
           </div>
           <div className="flex gap-6 text-sm text-muted-foreground">
             <a href="#typography" className="hover:text-primary transition-colors">

@@ -288,3 +288,16 @@
     perspective: 1000px;
   }
 }
+
+/* sttyles for buttons components */
+.bg-primary {
+  background: var(--mono-300);
+  background-size: 200% 200%;
+  animation: gradient-animation 5s ease infinite;
+}
+
+.bg-secondary {
+  background: var(--mono-400);
+  background-size: 200% 200%;
+  animation: gradient-animation 5s ease infinite;
+}

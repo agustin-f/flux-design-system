@@ -15,14 +15,8 @@ const buttonCode = `import { Button } from "@/components/ui/button"
 // Secondary Button
 <Button variant="secondary">Secondary Button</Button>
 
-// Outline Button
-<Button variant="outline">Outline Button</Button>
-
-// Ghost Button
-<Button variant="ghost">Ghost Button</Button>
-
-// Destructive Button
-<Button variant="destructive">Destructive Button</Button>
+// Tertiary Button
+<Button variant="tertiary">Tertiary Button</Button>
 
 // Disabled Button
 <Button disabled>Disabled Button</Button>`
@@ -99,9 +93,7 @@ export function ComponentsSection() {
           <div className="flex flex-wrap gap-3 mb-4">
             <Button>Primary Button</Button>
             <Button variant="secondary">Secondary Button</Button>
-            <Button variant="outline">Outline Button</Button>
-            <Button variant="ghost">Ghost Button</Button>
-            <Button variant="destructive">Destructive Button</Button>
+            <Button variant="tertiary">Tertiary Button</Button>
             <Button disabled>Disabled Button</Button>
           </div>
         </div>

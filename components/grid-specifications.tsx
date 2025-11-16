@@ -6,7 +6,7 @@ const gridSpecs = [
   {
     name: "Desktop",
     columns: 12,
-    gutter: "24px",
+    gutter: "30px",
     margin: "80px",
     color: "#7c3aed",
     maxWidth: "full",
