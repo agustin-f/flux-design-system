@@ -93,7 +93,6 @@ export function ComponentsSection() {
           <div className="flex flex-wrap gap-3 mb-4">
             <Button>Primary Button</Button>
             <Button variant="secondary">Secondary Button</Button>
-            <Button variant="tertiary">Tertiary Button</Button>
             <Button disabled>Disabled Button</Button>
           </div>
         </div>

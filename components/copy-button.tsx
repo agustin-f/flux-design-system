@@ -26,7 +26,7 @@ export function CopyButton({ value, label }: CopyButtonProps) {
       className="h-6 px-2 text-xs hover:bg-gray-800"
       title={`Copy ${label || value}`}
     >
-      {copied ? <Check className="h-3 w-3 text-green-500" /> : <Copy className="h-3 w-3 text-gray-400" />}
+      {copied ? <Check className="h-3 w-3 text-green-500" /> : <Copy className="h-3 w-3 text-gray-700" />}
     </Button>
   )
 }
